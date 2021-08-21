@@ -1,25 +1,32 @@
-h1{
-    color:blue;
+h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
 }
-.caracteristica{
-    color:red;
+
+.caracteristica {
+    color: red;
 }
-#primer_caracteristica{
+
+#primer_caracteristica {
     color: brown;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  body {
+}
+
+body {
     background-image: url('fondo.jpg');
-  }
-#img_registro{
+}
+
+#img_registro {
     background: black;
-  }
-  .form-register {
+}
+
+.form-register {
     width: 400px;
     background: #24303c;
     padding: 30px;
@@ -29,14 +36,15 @@ h1{
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-  }
-  
-  .form-register h4 {
+}
+
+.form-register h5 {
     font-size: 22px;
     margin-bottom: 20px;
-  }
-  
-  .controls {
+    text-align: center;
+}
+
+.controls {
     width: 100%;
     background: #24303c;
     padding: 10px;
@@ -46,26 +54,62 @@ h1{
     font-family: 'calibri';
     font-size: 18px;
     color: white;
-  }
-  
-  .form-register p {
+}
+
+#img_registro1 {
+    margin-bottom: 15px;
+}
+
+#img_registro2 {
+    margin-bottom: 15px;
+}
+
+#img_registro3 {
+    margin-bottom: 15px;
+}
+
+.file-select::before {
+    background-color: #5678EF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    content: 'Seleccionar';
+    /* testo por defecto */
+    position: absolute;
+    width: 142px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.file-select {
+    padding: 2rem;
+    justify-content: center;
+}
+
+#caja_imagenes {
+    padding: 0%;
+}
+
+.form-register p {
     height: 40px;
     text-align: center;
     font-size: 18px;
     line-height: 40px;
-  }
-  
-  .form-register a {
+}
+
+.form-register a {
     color: white;
     text-decoration: none;
-  }
-  
-  .form-register a:hover {
+}
+
+.form-register a:hover {
     color: white;
     text-decoration: underline;
-  }
-  
-  .form-register .botons {
+}
+
+.form-register .botons {
     width: 100%;
     background: #1f53c5;
     border: none;
@@ -73,4 +117,4 @@ h1{
     color: white;
     margin: 16px 0;
     font-size: 16px;
-  }
+}
